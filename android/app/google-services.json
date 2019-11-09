@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "790458942153",
+    "firebase_url": "https://lowcarbproject-18b95.firebaseio.com",
+    "project_id": "lowcarbproject-18b95",
+    "storage_bucket": "lowcarbproject-18b95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790458942153:android:9ba05eaff48e52f6198318",
+        "android_client_info": {
+          "package_name": "com.estoquesoluction.lowcarb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790458942153-59ch72rrhrv5t2h6t3udc7b7kjgjnatr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqPVwikyXf9hZGOlVuup6RYixbOSgTxTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790458942153-59ch72rrhrv5t2h6t3udc7b7kjgjnatr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
