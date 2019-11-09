@@ -3,16 +3,20 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 
 class LovePage extends StatefulWidget {
+  
   static const String routeName = '/love';
   @override
   _LovePageState createState() => _LovePageState();
 }
 
 class _LovePageState extends State<LovePage> {
+  
   @override
   Widget build(BuildContext context) {
+    
      return new Scaffold(
       appBar: AppBar(
+        
         backgroundColor: Colors.red[300],
         title: Text('Frases Romanticas'),
 

@@ -6,16 +6,21 @@ import 'package:frases/screens/sad.dart';
 import 'package:frases/screens/love.dart';
 
 class HomePage extends StatefulWidget {
+  
   static const String routeName = '/home';
+ 
   @override
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
+  
   @override
   @override
    Widget build(BuildContext context) {
+     
      return MaterialApp(
+       debugShowCheckedModeBanner: false,
       home: ScaffoldTabBar(
         children: [
           ScreenTab(
