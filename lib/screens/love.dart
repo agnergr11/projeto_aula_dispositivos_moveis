@@ -1,22 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:share/share.dart';
 
 
 class LovePage extends StatefulWidget {
-  
   static const String routeName = '/love';
   @override
   _LovePageState createState() => _LovePageState();
 }
 
 class _LovePageState extends State<LovePage> {
-  
   @override
   Widget build(BuildContext context) {
-    
      return new Scaffold(
       appBar: AppBar(
-        
         backgroundColor: Colors.red[300],
         title: Text('Frases Romanticas'),
 
@@ -32,12 +29,12 @@ class _LovePageState extends State<LovePage> {
            return ListTile(
              leading: Image.asset('assets/love.png', scale: 20,),
              title: Text(doc ['a'], style: TextStyle(fontSize: 13),),
-             trailing: GestureDetector(
-               onTap: (){ 
-              
-               },
-                child: Icon(Icons.share, color: Colors.grey,),
-               ),
+             trailing: IconButton(
+               icon: Icon(Icons.share),
+               onPressed: (){
+                 Share.share(doc ['a']);
+               }
+             ),
            );  
          },
        );

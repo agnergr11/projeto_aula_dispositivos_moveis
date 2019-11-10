@@ -9,6 +9,8 @@ class Gado extends StatefulWidget {
 }
 
 class _GadoState extends State<Gado> {
+
+
   @override
   Widget build(BuildContext context) {
      return new Scaffold(
@@ -28,13 +30,12 @@ class _GadoState extends State<Gado> {
            return ListTile(
              leading: Image.asset('assets/ox.png', scale: 20,),
              title: Text(doc ['g'], style: TextStyle(fontSize: 13),),
-             trailing: GestureDetector(
-               onTap: (){ 
-              Share.share("Compartilhar");
-               },
-              child: Icon(Icons.share, color: Colors.grey,
-              ),
-               ),
+             trailing: IconButton(
+               icon: Icon(Icons.share),
+               onPressed: (){
+                 Share.share(doc ['g']);
+               }
+             )
            );  
          },
        );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:share/share.dart';
 
 class SadPage extends StatefulWidget {
   static const String routeName = '/sadpage';
@@ -28,12 +29,12 @@ class _SadPageState extends State<SadPage> {
            return ListTile(
              leading: Image.asset('assets/sad.png', scale: 20,),
              title: Text(doc ['s'], style: TextStyle(fontSize: 13),),
-             trailing: GestureDetector(
-               onTap: (){ 
-              
-               },
-                child: Icon(Icons.share, color: Colors.grey,),
-               ),
+             trailing: IconButton(
+               icon: Icon(Icons.share),
+               onPressed: (){
+                 Share.share(doc ['s']);
+               }
+             ),
            );  
          },
        );

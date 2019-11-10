@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:share/share.dart';
 
 
 
@@ -30,12 +31,12 @@ class _HappyState extends State<Happy> {
            return ListTile(
              leading: Image.asset('assets/happy.png', scale: 20,),
              title: Text(doc ['engracado'], style: TextStyle(fontSize: 13),),
-             trailing: GestureDetector(
-               onTap: (){ 
-              
-               },
-               child: Icon(Icons.share, color: Colors.grey,),
-               ),
+             trailing: IconButton(
+               icon: Icon(Icons.share),
+               onPressed: (){
+                 Share.share(doc ['engracado']);
+               }
+             )
            );  
          },
        );
