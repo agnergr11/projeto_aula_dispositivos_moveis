@@ -1,21 +1,40 @@
-# Frases para Status
-
-
-<p align="center">
-    <img src="https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/75223793_123338199088363_3077351527942193152_n.png?_nc_cat=111&_nc_oc=AQktbNGFRGR8QVHdyL7gCDhNmOcCKB4OY1fP54vHChmDSgnDB2v77l_2DlD5j62518s&_nc_ht=scontent.fcpq4-1.fna&oh=668857f6a17cb462903dd5e83ecc8813&oe=5E4E2001" width="250"/>
-    <img src="https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/74567070_123338189088364_1888713315819978752_n.png?_nc_cat=101&_nc_oc=AQnmgBBergXvA_-58qQomD6jrQBzmrhGzw3DirzIf1Rn7YxIFiMDohwjm3tIL9OAc7I&_nc_ht=scontent.fcpq4-1.fna&oh=9a66fadac7617bed9a82db1f18dbc701&oe=5E5A83E1" width="250"/>
-    <img src="https://scontent.fcpq4-1.fna.fbcdn.net/v/t1.0-9/75380227_123338229088360_1670280783908044800_n.png?_nc_cat=110&_nc_oc=AQn_lS1C8j1gecHyej-kVYfdCCBxq6cJH_neyanY70UwoAlNcUMxciie2CGy9UgpzQQ&_nc_ht=scontent.fcpq4-1.fna&oh=4f2373cb134122a2a0506f61eba50a4a&oe=5E51A3DD" width="250"/>
+#
+<h3>Projeto Final </h3>
+<hr>
+<p>
+<h5>Faculdade de Tecnologia de Americana</h5>
+Professor: Kleber Andrade  / <a target="_blank" href="http://github.com/kleberandrade">github.com</a><br>
+Disciplina: Programação Dispositivos Móveis<br>
+3º Semestre
+<h5>Desenvolvedores:</h5>
+<ul>
+    <li>Gustavo Messias - RA: 0040481821039 / <a target="_blank" href="http://github.com/gustavomgs">github.com</a></li>
+    <li>Flávio Júnior - RA: 0040481821004 / <a target="_blank" href="http://github.com/jrflavio">github.com</a></li>
+    <li>Matheus Estoque - RA: 0040481821040 / <a target="_blank" href="http://github.com/matheusestoquenuness">github.com</a></li>
+    <li>Agner Gomes - RA: 0040481821045 / <a target="_blank" href="http://github.com/agnergr11">github.com</a></li>
+</ul>
 </p>
+<hr>
+<p><h5>Aplicativo de frases para status:</h5>
+Este aplicativo foi desevolvido com a finalidade de compartilhar frases criativas para qualquer uso.
+<br><br>
+<p align="center">
+<img  src="https://github.com/gustavomgs/Projeto-Final-DispositivosMoveis/blob/master/images/img1.png" height="400">
+<img  src="https://github.com/gustavomgs/Projeto-Final-DispositivosMoveis/blob/master/images/img2.png" height="400">
+<img  src="https://github.com/gustavomgs/Projeto-Final-DispositivosMoveis/blob/master/images/img3.png" height="400">
+<br>
+<a href="https://play.google.com/store/apps/details?id=com.estoquesoluction.lowcarb" target="_blank"><img src="https://4.bp.blogspot.com/-1LBva3U1LCI/W6kL2pl9ZYI/AAAAAAAAFys/grkBZRKkAWE1eLAh6DPffThJ7gP__SREACLcBGAs/s1600/play_logo_16_9%2B%25285%2529.png" target="_blank" height="100"></a>
+</p>
+</p>
+<hr>
+<p><h5>Desenvolvimento:</h5>
+<li> Linguagem: Dart/Flutter<br>
+<li> Banco de Dados: FireStore<br>
+<br>
+<h5>Extensões necessárias:</h5>
+<li> Firebase Cloud
 
-## Grupo de desenvolvimento
-
-- Agner Gomes.
-- Matheus Estoque Nunes.
-- Flávio Jr.
-- Gustavo Messias.
-
-
-
+</p>
 
 
 
